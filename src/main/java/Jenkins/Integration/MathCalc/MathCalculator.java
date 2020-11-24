@@ -22,4 +22,10 @@ public class MathCalculator
 	    {
 	        return a/b;
 	    }
+	    
+	    public double getEvaluation(double a, double b)
+	    {
+	        return a*b/2.0;
+	    }
+	    
 	}
