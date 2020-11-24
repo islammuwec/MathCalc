@@ -17,6 +17,6 @@ public class TestMathCalculator {
         MathCalculator calc=new MathCalculator();
 
         //Assert.assertEquals(5.00,calc.Sum(2,3));
-        Assert.assertTrue(1==calc.Deduct(5, 4));
+        Assert.assertTrue(2==calc.Deduct(5, 4));
     }
 }
